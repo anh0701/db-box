@@ -1,0 +1,12 @@
+services:
+  mysql:
+    image: mysql:8.2.0
+    env_file:
+      - ./mysql.env
+    ports:
+      - 3306:3306
+    volumes:
+      - mysql-box-vol:/var/lib/mysql
+volumes:
+  mysql-box-vol:
+    external: true
