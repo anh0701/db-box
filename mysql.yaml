@@ -2,7 +2,7 @@ services:
   mysql:
     image: mysql:8.2.0
     env_file:
-      - ./mysql.env
+      - ./.env
     ports:
       - 3306:3306
     volumes:
