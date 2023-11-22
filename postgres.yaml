@@ -7,8 +7,8 @@ services:
     ports:
       - 5432:5432
     volumes:
-      - postgres-vol:/usr/local/pgsql/data
+      - name:/usr/local/pgsql/data
 
 volumes:
-  postgres-vol:
+  name:
     external: true
