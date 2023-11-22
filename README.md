@@ -1,4 +1,5 @@
-## up.ps1:
+# up.ps1
+
 ```shell
 > Task :help
     Detailed task information for file up.ps1
@@ -9,9 +10,28 @@ Options
     --timeout / -t     Use this timeout in seconds for container shutdown when attached or when containers are already running.
 ```
 
-## Usage:
-- Windows:
+## Usage
+
+### Windows
+
+- example:
+
     ```sh
-        .\up.ps1
-        .\down.ps1
+        .\cre-vol.ps1 mysql-box-vol
+        .\up.ps1 .\mysql.yaml
+        .\down.ps1 .\mysql.yaml
     ```
+
+- syntax:
+
+    ```sh
+        .\cre-vol.ps1 [name volume]
+        .\up.ps1 [file]
+        .\down.ps1 [file]
+    ```
+
+    | name volume  | file  |
+    |---|---|
+    | mysql-box-vol  | .\mysql.yaml  |
+    | postgres-vol  | .\postgres.yaml  |
+    |   |   |

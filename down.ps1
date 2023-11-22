@@ -1,7 +1,5 @@
-## mysql
+param(
+    [string] $path
+)
 
-docker-compose -f ./mysql.yaml down
-
-## potgres
-
-# docker-compose -f .\postgres.yaml down
+docker-compose -f $path down
