@@ -6,7 +6,7 @@ services:
     ports:
       - 3306:3306
     volumes:
-      - mysql-box-vol:/var/lib/mysql
+      - name:/var/lib/mysql
 volumes:
-  mysql-box-vol:
+  name:
     external: true

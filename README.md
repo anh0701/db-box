@@ -17,21 +17,17 @@ Options
 - example:
 
     ```sh
-        .\cre-vol.ps1 mysql-box-vol
-        .\up.ps1 .\mysql.yaml
-        .\down.ps1 .\mysql.yaml
+        .\run.ps1 cre  my-vol .\mysql.yaml 
     ```
 
 - syntax:
 
     ```sh
-        .\cre-vol.ps1 [name volume]
-        .\up.ps1 [file]
-        .\down.ps1 [file]
+        .\run.ps1 [Option]  [name volume] [file]
     ```
 
-    | name volume  | file  |
+    | Option  | Description  |
     |---|---|
-    | mysql-box-vol  | .\mysql.yaml  |
-    | postgres-vol  | .\postgres.yaml  |
+    | cre  |  create volume |
+    | no  | no create volume  |
     |   |   |
