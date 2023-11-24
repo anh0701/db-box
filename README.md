@@ -23,7 +23,7 @@ Options
 - syntax:
 
     ```sh
-        .\run.ps1 [Option]  [name volume] [file]
+        .\run.ps1 <Option>  <name volume> <file>
     ```
 
     | Option  | Description  |
