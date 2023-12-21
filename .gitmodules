@@ -1,0 +1,6 @@
+[submodule "mysql-compose"]
+	path = mysql-compose
+	url = https://github.com/anh0701/mysql-compose.git
+[submodule "postgres"]
+	path = postgres
+	url = https://github.com/anh0701/postgres-compose.git
