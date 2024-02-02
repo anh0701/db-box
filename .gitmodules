@@ -4,3 +4,6 @@
 [submodule "postgres"]
 	path = postgres
 	url = https://github.com/anh0701/postgres-compose.git
+[submodule "mssql-compose"]
+	path = mssql-compose
+	url = git@github.com:anh0701/mssql-docker-compose.git
